@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт портфолио</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+    <div class="header " id="header">
+        <audio class="audio" src="/audio/sun (mp3cut.net).mp3" autostart loop hidden="false"></audio> 
+        <h1 class="header-title">Зубань Ярослав</h1>
+        <p class="header-subtile">Разработчик Java приложений, начинающий Android developer, фитнес машина</p>
+        <a href="#description" class="header-arrow">
+            <img src="./img/header/down.png" alt="Arrow">
+        </a>
+    </div>
+
+    <div class="portfolio " id="description">
+        <div class="container">
+             <h2 class="portfolio-header">Портфолио</h2>
+             <div class="portfolio-info">
+                <img class="portfolio-photo" src="/img/portfolio/prf.jpg" alt="О себе">
+                <p class="portfolio-institute">
+                    Место учебы: Новосибирский Государственный Технический Университет <br>
+                    Направление: Математическое обеспечение и администрирование информационных систем
+                </p>
+             </div>
+             <h3 class="portfolio-skilss-title">Мои умения</h3>
+             <ul class="portfolio-skilss">
+                <li>Academ IT School - Java</li>
+                <li>Academ IT School - ООП Java</li>
+                <li>Мобильный робот движется по плоскости. Робот имеет форму круга радиусом r с координатой центра (Cx, Cy); робот может двигаться в любом направлении без ограничений, с некоторой заданной постоянной скоростью. Также на плоскости находятся объекты-препятствия. Заданы начальная и конечная координаты робота Init=(Initx, Inity) и Goal=(Goalx, Goaly), дополнительно может быть задано несколько промежуточных координат. 
+                    <br>Задача: найти кратчайший (по возможности) путь для робота из начальной координаты в конечную, не приводящий к столкновению робота с препятствиями. При наличии дополнительных координат путь должен проходить через каждую дополнительную координату минимум по одному разу.<br> Реализовывал алгоритм A* и графический интерфейс<div class="br"></div> Ссылка на github: <a href="https://github.com/YaroslavZuban/RGZ_MPiAA" style="color: rgb(21, 255, 0)">https://github.com/YaroslavZuban/RGZ_MPiAA</a>
+                    </li>
+                <li>Создавал мобильное приложение "Визитная карточка Новосибирска". Данную задачу поставили на курсах английского языка, сказали сделать что-то интересное и не забываемое. <div class="br"></div> Ссылка на github: <a href="https://github.com/YaroslavZuban/GuideNSK" style="color: rgb(21, 255, 0)">https://github.com/YaroslavZuban/GuideNSK</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container-footer">
+            <div class="footer-row">
+                <div class="footer-copyright">
+                    <div class="footer-copyright-name">
+                        Ⓒ Зубань Ярослав
+                    </div>
+                    <p>Разработчик Java приложений</p>
+                </div>
+
+                <div >
+                    <p>Мои профили в социальных сетях</p>
+                    <div class="footer-icons-row">
+                        <a href="https://vk.com/zuban7029"><img src="/img/footer/icons8-вконтакте.svg" alt=""></a>
+                        <a href="https://t.me/JaroslavZuban"><img src="/img/footer/icons8-телеграмма-app.svg" alt=""></a>
+                        <a href="https://github.com/YaroslavZuban"><img src="/img/footer/icons8-github.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="footer-contacts">
+                    <a href="https://vk.com/write142959865" class="footer-button">Связь Вконтакте</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Библеотеки и плагины-->
+    <script src="/libs/jQuery/jquery-3.6.1.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+
+    <!-- Собственные скрипты и вызовы библеотек-->
+    <script src="./js/main.js"></script>
+    <script src="/js/mainBody.js"></script>
+</body>
+</html>
